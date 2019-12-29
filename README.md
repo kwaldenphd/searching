@@ -15,7 +15,7 @@ This lab incorporates elements of the "Experiments in Search" lab:
 - Jerod Weinman, March 15, 2011
 - Jerod Weinman, February 25, 2014
 - Jerod Weinman, January 6, 2015
-- Adopted from Run-Time Experiments
+- Adopted from [Run-Time Experiments](http://www.cs.grinnell.edu/~coahranm/csc105/labs/run-time-searching.shtml)
 
 ### Experiments with Sorting Algorithms
 This lab incorporates elements of the "Experiments with Sorting Algorithms" lab:
