@@ -202,6 +202,37 @@ Use these examples to modify and refine your code.
 
 <blockquote>Q6: Submit a functional code block (with comments) that executes a binary search in Python. Be sure to credit sources you used to refine your code.</blockquote>
 
+# Sorting Algorithms
+
+We'll cover algorithms in greater depth in the next lab, but let's take a quick look at the different algorithms that can be used for searching and sorting.
+
+<blockquote>"A sorting algorithm is an algorithm that puts elements of a list in a certain order. The most frequently used orders are numerical order and lexicographical order. Efficient sorting is important for optimizing the efficiency of other algorithms (such as search and merge algorithms) that require input data to be in sorted lists." (<a href="https://en.wikipedia.org/wiki/Sorting_algorithm")"Sorting algorithm,"</a> <em>Wikipedia</em>)</blockquote>
+
+There are any number of sorting algorithms: selection, bubble, recursive bubble, insertion, recursive insertion, merge, iterative merge, quick, iterative quick, and heap, just to name a few.
+
+<blockquote>Check out Wikipedia's <a href="https://en.wikipedia.org/wiki/Sorting_algorithm">"Sorting Algorithm" article</a> to learn more about these different algorithms.</blockquote>
+
+According to [GeeksForGeeks.org](https://www.geeksforgeeks.org/analysis-of-different-sorting-techniques/), we can evaluate or compare sorting algorithms using a few key critera:
+- how much time and computer memory are required to execute the search
+- whether the algorithm uses comparison-based sorting (array elements compared with each other)
+- whether the algorithm uses non-comparison based sorting (array elements are not compared with each other)
+- whether the algorithm can accept new data while the procedure is ongoing (called an "online" sorting technique)
+- whether the algorithm is unable to accept new data while the search procedure is ongoing (called an "offline" sorting technique)
+- whether the algorithm deploys a stable search technique (elements with the same value do not change order)
+- whether the algorithm deploys an unstable search technique (elements with the same value may change order)
+
+These critera (and others) can be used to determine what sorting algorithm will be the best fit based on the type and amount of data being sorted, as well as the computational resources available.
+
+<blockquote>Q7: Choose one of the sorting algorithms documented in the Wikipedia article. Explain how the algorithm operates or functions in your own words, citing external sources as needed.</blockquote>
+
+<blockquote>Q8: Evaluate this algorithm based on the critera outlined in the previous section's list (comparison vs. non-comparison, online vs. offline, stable vs. unstable, amount of time/memory needed to execute the search).</blockquote>
+
+<blockquote>Q9: Based on what you know about how this sorting algorithm works, where would you start with writing Python code to execute the sort?</blockquote>
+
+The [`examples.md` file](https://github.com/kwaldenphd/searching/blob/master/examples.md) in this repo has sample code for various sorting algorithms. 
+
+<blockquote>Q10: Take one of the sample programs for your sorting algorithm and add additional comments to explain what each line of the program is doing. Be sure to credit your sources. OR (alternative): Submit a functional code block (with comments) that executes a particular sorting algorithm in Python. Be sure to credit sources you used to refine your code.</blockquote>
+
 # Boolean Operators 
 
 We were introduced to the logic of Boolean operators earlire in the semester when talking about gates and switches. Here will will see how the logic of Boolean operators can help us search more efficiently through online database systems.
@@ -227,7 +258,7 @@ We can think of the first three operators (`AND`, `OR`, `NOT`) in terms of Venn 
 
 An example from [Duke University Libraries](https://library.duke.edu/using/catalog-search-tips/expert):
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/searching/blob/master/images/image_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/searching/blob/master/images/image_1.png?raw=true" /></a></p>
 
 ### Brackets 
 
@@ -241,9 +272,9 @@ Similarly, searching `game NOT chess OR checkers` will have different results th
 
 Surrounding a phrase in quotation marks (`"Grinnell College"`) allows you to search for the entire phrase, rather than two distinct terms.
 
-<blockquote>Q7: Develop a list of three related terms. Describe and illustrate the relationship of those terms using the <code>AND, OR, NOT</code>, Boolean operators.</blockquote>
+<blockquote>Q11: Develop a list of three related terms. Describe and illustrate the relationship of those terms using the <code>AND, OR, NOT</code>, Boolean operators.</blockquote>
 
-<blockquote>Q8: Describe how the other two Boolean operators (brackets and quotation) marks function in your own words. Include examples in your explanations.</blockquote>
+<blockquote>Q12: Describe how the other two Boolean operators (brackets and quotation) marks function in your own words. Include examples in your explanations.</blockquote>
 
 ## Boolean Operators and Database Systems
 
@@ -265,13 +296,14 @@ Use the search terms and phrases you developed for Q7 and Q8 to execute searches
 4. brackets
 5. quotation marks
 
-<blockquote>Q9: Describe your experience using Boolean operators in Google Search.</blockquote>
+<blockquote>Q13: Describe your experience using Boolean operators in Google Search.</blockquote>
 
-<blockquote>Q10: Describe your experience using Boolean operators in Primo.</blockquote>
+<blockquote>Q14: Describe your experience using Boolean operators in Primo.</blockquote>
 
-<blockquote>Q11: Describe your experience using Boolean operators in EBSCOhost.</blockquote>
+<blockquote>Q15: Describe your experience using Boolean operators in EBSCOhost.</blockquote>
 
-<blockquote>Q12: How did your search results vary across the three platforms? Include examples.</blockquote>
+<blockquote>Q16: How did your search results vary across the three platforms? Include examples.</blockquote>
+
 
 # Lab Notebook Questions
 
@@ -287,14 +319,22 @@ Q5: Based on our previous work in Python, how would you approach writing this pr
 
 Q6: Submit a functional code block (with comments) that executes a binary search in Python. Be sure to credit sources you used to refine your code.
 
-Q7: Develop a list of three related terms. Describe and illustrate the relationship of those terms using the `AND OR NOT` Boolean operators.
+Q7: Choose one of the sorting algorithms documented in the Wikipedia article. Explain how the algorithm operates or functions in your own words, citing external sources as needed.
 
-Q8: Describe how the other two Boolean operators (brackets and quotation) marks function in your own words. Include examples in your explanations.
+Q8: Evaluate this algorithm based on the critera outlined in the previous section's list (comparison vs. non-comparison, online vs. offline, stable vs. unstable, amount of time/memory needed to execute the search).
 
-Q9: Describe your experience using Boolean operators in Google Search.
+Q9: Based on what you know about how this sorting algorithm works, where would you start with writing Python code to execute the sort?
 
-Q10: Describe your experience using Boolean operators in Primo.
+Q10: Take one of the sample programs for your sorting algorithm and add additional comments to explain what each line of the program is doing. Be sure to credit your sources. OR (alternative): Submit a functional code block (with comments) that executes a particular sorting algorithm in Python. Be sure to credit sources you used to refine your code.
 
-Q11: Describe your experience using Boolean operators in EBSCOhost.
+Q11: Develop a list of three related terms. Describe and illustrate the relationship of those terms using the `AND OR NOT` Boolean operators.
 
-Q12: How did your search results vary across the three platforms? Include examples.
+Q12: Describe how the other two Boolean operators (brackets and quotation) marks function in your own words. Include examples in your explanations.
+
+Q13: Describe your experience using Boolean operators in Google Search.
+
+Q14: Describe your experience using Boolean operators in Primo.
+
+Q15: Describe your experience using Boolean operators in EBSCOhost.
+
+Q16: How did your search results vary across the three platforms? Include examples.
