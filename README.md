@@ -206,7 +206,7 @@ Use these examples to modify and refine your code.
 
 We'll cover algorithms in greater depth in the next lab, but let's take a quick look at the different algorithms that can be used for searching and sorting.
 
-<blockquote>"A sorting algorithm is an algorithm that puts elements of a list in a certain order. The most frequently used orders are numerical order and lexicographical order. Efficient sorting is important for optimizing the efficiency of other algorithms (such as search and merge algorithms) that require input data to be in sorted lists." (<a href="https://en.wikipedia.org/wiki/Sorting_algorithm")"Sorting algorithm,"</a> <em>Wikipedia</em>)</blockquote>
+<blockquote>"A sorting algorithm is an algorithm that puts elements of a list in a certain order. The most frequently used orders are numerical order and lexicographical order. Efficient sorting is important for optimizing the efficiency of other algorithms (such as search and merge algorithms) that require input data to be in sorted lists." (<a href="https://en.wikipedia.org/wiki/Sorting_algorithm">"Sorting algorithm,"</a> <em>Wikipedia</em>)</blockquote>
 
 There are any number of sorting algorithms: selection, bubble, recursive bubble, insertion, recursive insertion, merge, iterative merge, quick, iterative quick, and heap, just to name a few.
 
