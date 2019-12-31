@@ -44,18 +44,20 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Algorithm), "an algorithm
 
 ## Basic Algorithm for a Linear Search
 
-Open a new Python document in Geany to build a basic linear search algorithm.
+1. Open a new Python file in Geany to build a basic linear search algorithm.
 
-The linear search algorithm we will build in Python will include the following steps or elements:
-- define an array with a list of items
-- define an `x` value to search for
-- use some kind of `for` loop to interate through the values in the array
-- output the position of `x` if `x` is present in the array
-- output some kind of message if `x` is not present in the array
+2. The linear search algorithm we will build in Python will include the following steps or elements:
+  a. define an array with a list of items
+  b. define an `x` value to search for
+  c. use some kind of `for` loop to interate through the values in the array
+  d. output the position of `x` if `x` is present in the array
+  e. output some kind of message if `x` is not present in the array
 
 <blockquote>Q3: Based on our previous work in Python, how would you approach writing this program? What elements are you not sure how to structure?</blockquote>
 
-Search for sample code that you could modify or adapt to refine your code. A few examples I found:
+3. Search for sample code that you could modify or adapt to refine your code. 
+
+4. A few examples I found:
 
 From [GeeksForGeeks.org](https://www.geeksforgeeks.org/linear-search/):
 ```Python
@@ -104,25 +106,27 @@ else:
   print("item not found")
 ```
 
-Use these examples to modify and refine your code. 
+5. Use these examples to modify and refine your code. 
 
 <blockquote>Q4: Submit a functional code block (with comments) that executes a linear search in Python. Be sure to credit sources you used to refine your code.</blockquote>
 
 ## Basic Algorithm for a Binary Search in Python
 
-Open a new Python document in Geany to build a basic binary search algorithm.
+6. Open a new Python document in Geany to build a basic binary search algorithm.
 
-The binary search algorithm we will build in Python will include the following steps or elements:
-- define an array with a list of items
-- define an `x` value to search for
-- compare `x` with an element in the middle of the array
-- use `else...if` statements to define what happens if `x` is greater or less than the middle element
-- output the position of `x` if `x` is present in the array
-- output some kind of message if `x` is not present in the array
+7. The binary search algorithm we will build in Python will include the following steps or elements:
+  a. define an array with a list of items
+  b. define an `x` value to search for
+  c. compare `x` with an element in the middle of the array
+  d. use `else...if` statements to define what happens if `x` is greater or less than the middle element
+  e. output the position of `x` if `x` is present in the array
+  f. output some kind of message if `x` is not present in the array
 
 <blockquote>Q5: Based on our previous work in Python, how would you approach writing this program? What elements are you not sure how to structure?</blockquote>
 
-Search for sample code that you could modify or adapt to refine your code. A few examples I found:
+8. Search for sample code that you could modify or adapt to refine your code. 
+
+9. A few examples I found:
 
 From [GeeksForGeeks.org](https://www.geeksforgeeks.org/binary-search/):
 ```Python
@@ -194,34 +198,34 @@ else:
 	print "element is present at index " + str(found)
 ```
 
-You'll notice the two examples I found provide two different ways of structuring a binary search algorithm in Python, using recursion in the GeeksForGeeks example and iteration in the CrazyProgrammer example.
+10. You'll notice the two examples I found provide two different ways of structuring a binary search algorithm in Python, using recursion in the GeeksForGeeks example and iteration in the CrazyProgrammer example.
 
 <blockquote>"Recursion and iteration both repeatedly executes the set of instructions. Recursion is when a statement in a function calls itself repeatedly. The iteration is when a loop repeatedly executes until the controlling condition becomes false. The primary difference between recursion and iteration is that is a recursion is a process, always applied to a function. The iteration is applied to the set of instructions which we want to get repeatedly executed." (<a href="https://techdifferences.com/difference-between-recursion-and-iteration-2.html")"Difference Between Recursion and Iteration,"</a> <em>TechDifferences</em>, 30 May 2016.</blockquote>
 
-Use these examples to modify and refine your code. 
+11. Use these examples to modify and refine your code. 
 
 <blockquote>Q6: Submit a functional code block (with comments) that executes a binary search in Python. Be sure to credit sources you used to refine your code.</blockquote>
 
 # Sorting Algorithms
 
-We'll cover algorithms in greater depth in the next lab, but let's take a quick look at the different algorithms that can be used for searching and sorting.
+12. We'll cover algorithms in greater depth in the next lab, but let's take a quick look at the different algorithms that can be used for searching and sorting.
 
 <blockquote>"A sorting algorithm is an algorithm that puts elements of a list in a certain order. The most frequently used orders are numerical order and lexicographical order. Efficient sorting is important for optimizing the efficiency of other algorithms (such as search and merge algorithms) that require input data to be in sorted lists." (<a href="https://en.wikipedia.org/wiki/Sorting_algorithm">"Sorting algorithm,"</a> <em>Wikipedia</em>)</blockquote>
 
-There are any number of sorting algorithms: selection, bubble, recursive bubble, insertion, recursive insertion, merge, iterative merge, quick, iterative quick, and heap, just to name a few.
+13. There are any number of sorting algorithms: selection, bubble, recursive bubble, insertion, recursive insertion, merge, iterative merge, quick, iterative quick, and heap, just to name a few.
 
 <blockquote>Check out Wikipedia's <a href="https://en.wikipedia.org/wiki/Sorting_algorithm">"Sorting Algorithm" article</a> to learn more about these different algorithms.</blockquote>
 
-According to [GeeksForGeeks.org](https://www.geeksforgeeks.org/analysis-of-different-sorting-techniques/), we can evaluate or compare sorting algorithms using a few key critera:
-- how much time and computer memory are required to execute the search
-- whether the algorithm uses comparison-based sorting (array elements compared with each other)
-- whether the algorithm uses non-comparison based sorting (array elements are not compared with each other)
-- whether the algorithm can accept new data while the procedure is ongoing (called an "online" sorting technique)
-- whether the algorithm is unable to accept new data while the search procedure is ongoing (called an "offline" sorting technique)
-- whether the algorithm deploys a stable search technique (elements with the same value do not change order)
-- whether the algorithm deploys an unstable search technique (elements with the same value may change order)
+14. According to [GeeksForGeeks.org](https://www.geeksforgeeks.org/analysis-of-different-sorting-techniques/), we can evaluate or compare sorting algorithms using a few key critera:
+  * how much time and computer memory are required to execute the search
+  * whether the algorithm uses comparison-based sorting (array elements compared with each other)
+  * whether the algorithm uses non-comparison based sorting (array elements are not compared with each other)
+  * whether the algorithm can accept new data while the procedure is ongoing (called an "online" sorting technique)
+  * whether the algorithm is unable to accept new data while the search procedure is ongoing (called an "offline" sorting technique)
+  * whether the algorithm deploys a stable search technique (elements with the same value do not change order)
+  * whether the algorithm deploys an unstable search technique (elements with the same value may change order)
 
-These critera (and others) can be used to determine what sorting algorithm will be the best fit based on the type and amount of data being sorted, as well as the computational resources available.
+15. These critera (and others) can be used to determine what sorting algorithm will be the best fit based on the type and amount of data being sorted, as well as the computational resources available.
 
 <blockquote>Q7: Choose one of the sorting algorithms documented in the Wikipedia article. Explain how the algorithm operates or functions in your own words, citing external sources as needed.</blockquote>
 
@@ -229,23 +233,23 @@ These critera (and others) can be used to determine what sorting algorithm will 
 
 <blockquote>Q9: Based on what you know about how this sorting algorithm works, where would you start with writing Python code to execute the sort?</blockquote>
 
-The [`examples.md` file](https://github.com/kwaldenphd/searching/blob/master/examples.md) in this repo has sample code for various sorting algorithms. 
+16. The [`examples.md` file](https://github.com/kwaldenphd/searching/blob/master/examples.md) in this repo has sample code for various sorting algorithms. 
 
 <blockquote>Q10: Take one of the sample programs for your sorting algorithm and add additional comments to explain what each line of the program is doing. Be sure to credit your sources. OR (alternative): Submit a functional code block (with comments) that executes a particular sorting algorithm in Python. Be sure to credit sources you used to refine your code.</blockquote>
 
 # Boolean Operators 
 
-We were introduced to the logic of Boolean operators earlire in the semester when talking about gates and switches. Here will will see how the logic of Boolean operators can help us search more efficiently through online database systems.
+17. We were introduced to the logic of Boolean operators earlire in the semester when talking about gates and switches. Here will will see how the logic of Boolean operators can help us search more efficiently through online database systems.
 
 ## What are Boolean Operators
 
-As described by [MIT Libraries](https://libguides.mit.edu/c.php?g=175963&p=1158594), "Boolean operators form the basis of mathematical sets and database logic. They connect your search words together to either narrow or broaden your set of results."
+18. As described by [MIT Libraries](https://libguides.mit.edu/c.php?g=175963&p=1158594), "Boolean operators form the basis of mathematical sets and database logic. They connect your search words together to either narrow or broaden your set of results."
 
-Boolean logic and its operators come to us from George Boole, an 18th Century British mathematician whose work is the foundation for much of the computational work that underlies digital technologies, from conditional statements to XOR circuits.
+19. Boolean logic and its operators come to us from George Boole, an 18th Century British mathematician whose work is the foundation for much of the computational work that underlies digital technologies, from conditional statements to XOR circuits.
 
 <blockquote><a href="https://en.wikipedia.org/wiki/George_Boole">Click here</a> to learn more about George Boole.</blockquote>
 
-The syntax for Boolean operators is based on five key elements:
+20. The syntax for Boolean operators is based on five key elements:
 ```
 AND
 OR
@@ -254,23 +258,23 @@ NOT
 ""
 ```
 
-We can think of the first three operators (`AND`, `OR`, `NOT`) in terms of Venn diagrams.
+21. We can think of the first three operators (`AND`, `OR`, `NOT`) in terms of Venn diagrams.
 
-An example from [Duke University Libraries](https://library.duke.edu/using/catalog-search-tips/expert):
+22. An example from [Duke University Libraries](https://library.duke.edu/using/catalog-search-tips/expert):
 
 <p align="center"><a href="https://github.com/kwaldenphd/searching/blob/master/images/image_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/searching/blob/master/images/image_1.png?raw=true" /></a></p>
 
 ### Brackets 
 
-Brackets (or parenthesis) function much like parenthesis work in a mathematical operation.
+23. Brackets (or parenthesis) function much like parenthesis work in a mathematical operation.
 
-For example `12 + 2 x 2` has a different result than `12 + (2 x 2)`. 
+24. For example `12 + 2 x 2` has a different result than `12 + (2 x 2)`. 
 
-Similarly, searching `game NOT chess OR checkers` will have different results than `game NOT (chess OR checkers)`. (Example from [Duke University Libraries](https://library.duke.edu/using/catalog-search-tips/expert))
+25. Similarly, searching `game NOT chess OR checkers` will have different results than `game NOT (chess OR checkers)`. (Example from [Duke University Libraries](https://library.duke.edu/using/catalog-search-tips/expert))
 
 ### Quotation Marks
 
-Surrounding a phrase in quotation marks (`"Grinnell College"`) allows you to search for the entire phrase, rather than two distinct terms.
+26. Surrounding a phrase in quotation marks (`"Grinnell College"`) allows you to search for the entire phrase, rather than two distinct terms.
 
 <blockquote>Q11: Develop a list of three related terms. Describe and illustrate the relationship of those terms using the <code>AND, OR, NOT</code>, Boolean operators.</blockquote>
 
@@ -278,23 +282,22 @@ Surrounding a phrase in quotation marks (`"Grinnell College"`) allows you to sea
 
 ## Boolean Operators and Database Systems
 
-As we have already talked about this week, search engines have different ways of moving through the metadata associated with digital information objects. Our previous work in the XML lab explored how library and information systems interact with this metadata to extract discrete pieces of information. 
+27. As we have already talked about this week, search engines have different ways of moving through the metadata associated with digital information objects. Our previous work in the XML lab explored how library and information systems interact with this metadata to extract discrete pieces of information. 
 
-In this section of the lab, we will look at how different information retrieval systems interact with Boolean search operators.
+28. In this section of the lab, we will look at how different information retrieval systems interact with Boolean search operators.
 
-We are going to run the same (or similar) searches using three different information retrieval systems.
+29. We are going to run the same (or similar) searches using three different information retrieval systems.
+  a. [Google Search](https://www.google.com/) is a leading search engine platform with over 90% of the market share.
+    * Browse [InternetLiveStats.com](https://www.google.com/) to see more information about Google search volume.
+  b. [Primo](https://grinnell.primo.exlibrisgroup.com/discovery/search?vid=01GCL_INST:GCL&lang=en&sortby=rank) is the Grinnell College Libraries' search system.
+  c. [EBSCOhost](https://grinnell.idm.oclc.org/login?url=https://search.ebscohost.com/) 
 
-- [Google Search](https://www.google.com/) is a leading search engine platform with over 90% of the market share. 
--- Browse [InternetLiveStats.com](https://www.google.com/) to see more information about Google search volume.
-- [Primo](https://grinnell.primo.exlibrisgroup.com/discovery/search?vid=01GCL_INST:GCL&lang=en&sortby=rank) is the Grinnell College Libraries' search system.
-- [EBSCOhost](https://grinnell.idm.oclc.org/login?url=https://search.ebscohost.com/) 
-
-Use the search terms and phrases you developed for Q7 and Q8 to execute searches that use each of the Boolean operators. Run each search in all three platforms:
-1. AND 
-2. OR
-3. NOT
-4. brackets
-5. quotation marks
+30. Use the search terms and phrases you developed for Q7 and Q8 to execute searches that use each of the Boolean operators. Run each search in all three platforms:
+  a. AND 
+  b. OR
+  c. NOT
+  d. brackets
+  e. quotation marks
 
 <blockquote>Q13: Describe your experience using Boolean operators in Google Search.</blockquote>
 
@@ -303,7 +306,6 @@ Use the search terms and phrases you developed for Q7 and Q8 to execute searches
 <blockquote>Q15: Describe your experience using Boolean operators in EBSCOhost.</blockquote>
 
 <blockquote>Q16: How did your search results vary across the three platforms? Include examples.</blockquote>
-
 
 # Lab Notebook Questions
 
