@@ -30,6 +30,22 @@ This lab incorporates elements of the "Experiments with Sorting Algorithms" lab:
 - Revision: Jerod Weinman, March 25, 2015
 - Revision: Liz Rodrigues, April 9, 2019
 
+# Table of Contents
+
+- [Review of Linear and Binary Searches](#review-of-linear-and-binary-searches)
+  * [What is an algorithm?](#what-is-an-algorithm)
+  * [Basic Algorithm for a Linear Search](#basic-algorithm-for-a-linear-search)
+  * [Basic Algorithm for a Binary Search](#basic-algorithm-for-a-binary-search)
+- [Sorting Algorithms](#sorting-algorithms)
+- [Boolean Operators](#boolean-operators)
+  * [What are Boolean operators](#what-are-boolean-operators)
+    * [Brackets](#brackets)
+    * [Quotation marks](#quotation-marks)
+  * [Boolean Operators and Database Systems](#boolean-operators-and-database-systems)
+- [Lab Notebook Questions](#lab-notebook-questions)
+
+  
+
 # Review of Linear and Binary Searches
 
 <blockquote>Q1: Provide a brief description of how a linear search works. Include a written and graphical explanation.</blockquote>
@@ -112,7 +128,7 @@ else:
 
 <blockquote>Q4: Submit a functional code block (with comments) that executes a linear search in Python. Be sure to credit sources you used to refine your code.</blockquote>
 
-## Basic Algorithm for a Binary Search in Python
+## Basic Algorithm for a Binary Search
 
 6. Open a new Python document in Geany to build a basic binary search algorithm.
 
