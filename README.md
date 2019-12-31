@@ -1,5 +1,7 @@
 # Searching and Sorting Functions
-CSC 105 Searching Functions lab
+
+<a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>
+This tutorial is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 This lab provides a hands-on overview of different types of searching functions and techniques, as well as an introduction to different kinds of sorting algorithms. This lab also covers Boolean operators that can be useful in searching a range of database and search engine systems.
 
