@@ -311,11 +311,11 @@ NOT
   * c. [EBSCOhost](https://grinnell.idm.oclc.org/login?url=https://search.ebscohost.com/) 
 
 30. Use the search terms and phrases you developed for Q7 and Q8 to execute searches that use each of the Boolean operators. Run each search in all three platforms:
-  * a. AND 
-  * b. OR
-  * c. NOT
-  * d. brackets
-  * e. quotation marks
+  * AND 
+  * OR
+  * NOT
+  * brackets
+  * quotation marks
 
 <blockquote>Q13: Describe your experience using Boolean operators in Google Search.</blockquote>
 
