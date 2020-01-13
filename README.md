@@ -54,7 +54,7 @@ This lab incorporates elements of the "Experiments with Sorting Algorithms" lab:
 
 Consult StackOverflow's [What is the difference between Linear search and Binary Search](https://stackoverflow.com/questions/700241/what-is-the-difference-between-linear-search-and-binary-search) to review.
 
-See also: [Wikipedia article on Linear Search](https://en.wikipedia.org/wiki/Linear_search) and [Wikipedia Binary Search]
+See also: [Wikipedia article on Linear Search](https://en.wikipedia.org/wiki/Linear_search) and [Wikipedia Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
 ## What is an Algorithm?
 
@@ -65,11 +65,11 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Algorithm), "an algorithm
 1. Open a new Python file in Geany to build a basic linear search algorithm.
 
 2. The linear search algorithm we will build in Python will include the following steps or elements:
-  a. define an array with a list of items
-  b. define an `x` value to search for
-  c. use some kind of `for` loop to interate through the values in the array
-  d. output the position of `x` if `x` is present in the array
-  e. output some kind of message if `x` is not present in the array
+  * a. define an array with a list of items
+  * b. define an `x` value to search for
+  * c. use some kind of `for` loop to interate through the values in the array
+  * d. output the position of `x` if `x` is present in the array
+  * e. output some kind of message if `x` is not present in the array
 
 <blockquote>Q3: Based on our previous work in Python, how would you approach writing this program? What elements are you not sure how to structure?</blockquote>
 
@@ -218,7 +218,7 @@ else:
 
 10. You'll notice the two examples I found provide two different ways of structuring a binary search algorithm in Python, using recursion in the GeeksForGeeks example and iteration in the CrazyProgrammer example.
 
-<blockquote>"Recursion and iteration both repeatedly executes the set of instructions. Recursion is when a statement in a function calls itself repeatedly. The iteration is when a loop repeatedly executes until the controlling condition becomes false. The primary difference between recursion and iteration is that is a recursion is a process, always applied to a function. The iteration is applied to the set of instructions which we want to get repeatedly executed." (<a href="https://techdifferences.com/difference-between-recursion-and-iteration-2.html")"Difference Between Recursion and Iteration,"</a> <em>TechDifferences</em>, 30 May 2016.</blockquote>
+<blockquote>"Recursion and iteration both repeatedly executes the set of instructions. Recursion is when a statement in a function calls itself repeatedly. The iteration is when a loop repeatedly executes until the controlling condition becomes false. The primary difference between recursion and iteration is that is a recursion is a process, always applied to a function. The iteration is applied to the set of instructions which we want to get repeatedly executed." (<a href="https://techdifferences.com/difference-between-recursion-and-iteration-2.html">"Difference Between Recursion and Iteration,"</a> <em>TechDifferences</em>, 30 May 2016)</blockquote>
 
 11. Use these examples to modify and refine your code. 
 
@@ -294,7 +294,7 @@ NOT
 
 26. Surrounding a phrase in quotation marks (`"Grinnell College"`) allows you to search for the entire phrase, rather than two distinct terms.
 
-<blockquote>Q11: Develop a list of three related terms. Describe and illustrate the relationship of those terms using the <code>AND, OR, NOT</code>, Boolean operators.</blockquote>
+<blockquote>Q11: Develop a list of three related terms. Describe and illustrate the relationship of those terms using the <code>AND OR NOT</code> Boolean operators.</blockquote>
 
 <blockquote>Q12: Describe how the other two Boolean operators (brackets and quotation) marks function in your own words. Include examples in your explanations.</blockquote>
 
@@ -305,17 +305,17 @@ NOT
 28. In this section of the lab, we will look at how different information retrieval systems interact with Boolean search operators.
 
 29. We are going to run the same (or similar) searches using three different information retrieval systems.
-  a. [Google Search](https://www.google.com/) is a leading search engine platform with over 90% of the market share.
+  * a. [Google Search](https://www.google.com/) is a leading search engine platform with over 90% of the market share.
     * Browse [InternetLiveStats.com](https://www.google.com/) to see more information about Google search volume.
-  b. [Primo](https://grinnell.primo.exlibrisgroup.com/discovery/search?vid=01GCL_INST:GCL&lang=en&sortby=rank) is the Grinnell College Libraries' search system.
-  c. [EBSCOhost](https://grinnell.idm.oclc.org/login?url=https://search.ebscohost.com/) 
+  * b. [Primo](https://grinnell.primo.exlibrisgroup.com/discovery/search?vid=01GCL_INST:GCL&lang=en&sortby=rank) is the Grinnell College Libraries' search system.
+  * c. [EBSCOhost](https://grinnell.idm.oclc.org/login?url=https://search.ebscohost.com/) 
 
 30. Use the search terms and phrases you developed for Q7 and Q8 to execute searches that use each of the Boolean operators. Run each search in all three platforms:
-  a. AND 
-  b. OR
-  c. NOT
-  d. brackets
-  e. quotation marks
+  * a. AND 
+  * b. OR
+  * c. NOT
+  * d. brackets
+  * e. quotation marks
 
 <blockquote>Q13: Describe your experience using Boolean operators in Google Search.</blockquote>
 
