@@ -65,11 +65,11 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Algorithm), "an algorithm
 1. Open a new Python file in Geany to build a basic linear search algorithm.
 
 2. The linear search algorithm we will build in Python will include the following steps or elements:
-  * a. define an array with a list of items
-  * b. define an `x` value to search for
-  * c. use some kind of `for` loop to interate through the values in the array
-  * d. output the position of `x` if `x` is present in the array
-  * e. output some kind of message if `x` is not present in the array
+  * define an array with a list of items
+  * define an `x` value to search for
+  * use some kind of `for` loop to interate through the values in the array
+  * output the position of `x` if `x` is present in the array
+  * output some kind of message if `x` is not present in the array
 
 <blockquote>Q3: Based on our previous work in Python, how would you approach writing this program? What elements are you not sure how to structure?</blockquote>
 
@@ -133,12 +133,12 @@ else:
 6. Open a new Python document in Geany to build a basic binary search algorithm.
 
 7. The binary search algorithm we will build in Python will include the following steps or elements:
-  a. define an array with a list of items
-  b. define an `x` value to search for
-  c. compare `x` with an element in the middle of the array
-  d. use `else...if` statements to define what happens if `x` is greater or less than the middle element
-  e. output the position of `x` if `x` is present in the array
-  f. output some kind of message if `x` is not present in the array
+  * define an array with a list of items
+  * define an `x` value to search for
+  * compare `x` with an element in the middle of the array
+  * use `else...if` statements to define what happens if `x` is greater or less than the middle element
+  * output the position of `x` if `x` is present in the array
+  * output some kind of message if `x` is not present in the array
 
 <blockquote>Q5: Based on our previous work in Python, how would you approach writing this program? What elements are you not sure how to structure?</blockquote>
 
@@ -300,15 +300,15 @@ NOT
 
 ## Boolean Operators and Database Systems
 
-27. As we have already talked about this week, search engines have different ways of moving through the metadata associated with digital information objects. Our previous work in the XML lab explored how library and information systems interact with this metadata to extract discrete pieces of information. 
+27. As we have already talked about this week, search engines have different ways of moving through the metadata associated with digital information objects. 
 
 28. In this section of the lab, we will look at how different information retrieval systems interact with Boolean search operators.
 
 29. We are going to run the same (or similar) searches using three different information retrieval systems.
-  * a. [Google Search](https://www.google.com/) is a leading search engine platform with over 90% of the market share.
+  * [Google Search](https://www.google.com/) is a leading search engine platform with over 90% of the market share.
     * Browse [InternetLiveStats.com](https://www.google.com/) to see more information about Google search volume.
-  * b. [Primo](https://grinnell.primo.exlibrisgroup.com/discovery/search?vid=01GCL_INST:GCL&lang=en&sortby=rank) is the Grinnell College Libraries' search system.
-  * c. [EBSCOhost](https://grinnell.idm.oclc.org/login?url=https://search.ebscohost.com/) 
+  * [Primo](https://grinnell.primo.exlibrisgroup.com/discovery/search?vid=01GCL_INST:GCL&lang=en&sortby=rank) is the Grinnell College Libraries' search system.
+  * [EBSCOhost](https://grinnell.idm.oclc.org/login?url=https://search.ebscohost.com/) 
 
 30. Use the search terms and phrases you developed for Q7 and Q8 to execute searches that use each of the Boolean operators. Run each search in all three platforms:
   * AND 
