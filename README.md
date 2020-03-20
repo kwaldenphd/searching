@@ -284,7 +284,7 @@ NOT
 
 ### Brackets 
 
-23. Brackets (or parenthesis) function much like parenthesis work in a mathematical operation.
+23. Brackets (or parentheses) function much like parenthesis work in a mathematical operation.
 
 24. For example `12 + 2 x 2` has a different result than `12 + (2 x 2)`. 
 
