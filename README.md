@@ -67,7 +67,7 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Algorithm), "an algorithm
 2. The linear search algorithm we will build in Python will include the following steps or elements:
   * define an array with a list of items
   * define an `x` value to search for
-  * use some kind of `for` loop to interate through the values in the array
+  * use some kind of `for` loop to iterate through the values in the array
   * output the position of `x` if `x` is present in the array
   * output some kind of message if `x` is not present in the array
 
@@ -234,7 +234,7 @@ else:
 
 <blockquote>Check out Wikipedia's <a href="https://en.wikipedia.org/wiki/Sorting_algorithm">"Sorting Algorithm" article</a> to learn more about these different algorithms.</blockquote>
 
-14. According to [GeeksForGeeks.org](https://www.geeksforgeeks.org/analysis-of-different-sorting-techniques/), we can evaluate or compare sorting algorithms using a few key critera:
+14. According to [GeeksForGeeks.org](https://www.geeksforgeeks.org/analysis-of-different-sorting-techniques/), we can evaluate or compare sorting algorithms using a few key criteria:
   * how much time and computer memory are required to execute the search
   * whether the algorithm uses comparison-based sorting (array elements compared with each other)
   * whether the algorithm uses non-comparison based sorting (array elements are not compared with each other)
