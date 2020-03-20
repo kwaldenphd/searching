@@ -257,7 +257,7 @@ else:
 
 # Boolean Operators 
 
-17. We were introduced to the logic of Boolean operators earlire in the semester when talking about gates and switches. Here will will see how the logic of Boolean operators can help us search more efficiently through online database systems.
+17. We were introduced to the logic of Boolean operators earlier in the semester when talking about gates and switches. Here we will see how the logic of Boolean operators can help us search more efficiently through online database systems.
 
 ## What are Boolean Operators
 
