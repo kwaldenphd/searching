@@ -294,9 +294,9 @@ NOT
 
 26. Surrounding a phrase in quotation marks (`"Grinnell College"`) allows you to search for the entire phrase, rather than two distinct terms.
 
-<blockquote>Q11: Develop a list of three related terms. Describe and illustrate the relationship of those terms using the <code>AND OR NOT</code> Boolean operators.</blockquote>
+<blockquote>Q11: Develop a list of three related terms. Describe and illustrate some of the different relationships that could exist between those terms, using the AND OR NOT Boolean operators.</blockquote>
 
-<blockquote>Q12: Describe how the other two Boolean operators (brackets and quotation) marks function in your own words. Include examples in your explanations.</blockquote>
+<blockquote>Q12: Using the same three related terms, provide examples of how the other two Boolean operators (brackets and quotation marks) function.</blockquote>
 
 ## Boolean Operators and Database Systems
 
